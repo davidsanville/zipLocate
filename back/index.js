@@ -3,10 +3,10 @@ var mysql = require('mysql');
 
 var app = express();
 var con = mysql.createConnection({
-    host: 'test4.cglk3nbbfptv.us-west-2.rds.amazonaws.com',
-    user: 'marshes',
-    password: 'andFroz3',
-    database: 'test4',
+    host: '*******',
+    user: '******',
+    password: '******',
+    database: '*****',
     acquireTimeout: 1000000
 });
 
